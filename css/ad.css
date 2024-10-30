@@ -1,0 +1,80 @@
+@font-face {
+	font-family:"Comissioner Black";
+	src: url("../fonts/Commisioner-Black.ttf") format("truetype");
+	font-weight: ;
+}
+
+
+@font-face {
+	font-family:"Comissioner Semibold";
+	src: url("../fonts/Commissioner-Medium.ttf") format("truetype");
+}
+
+
+.container {
+	width:970px;
+	height:250px;
+	border:2px solid black;
+	position: absolute;
+	top: 50% ;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #2a0134;
+	overflow: hidden;
+}
+
+
+.slots {
+	width: 500px;
+	position: absolute;
+}
+
+
+.title {
+	font-family: "Commissioner Black";
+	font-size: 40px;
+	color: #FFDF00;
+	position: absolute;
+	top: 15px;
+	left: 525px;
+	z-index: 2;
+}
+
+
+.h1 {
+	font-family: "Commissioner Black";
+	font-size: 25px;
+	position: absolute;
+	color: whitesmoke;
+	top: 85px;
+	left: 580px;
+	z-index: 1;
+}
+
+.button {
+	font-family: "Comissioner Semibold";
+	font-size: 30px;
+	color: #2a0134;
+	display: block;
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	top: 150px;
+	left: 575px;
+	background: #FFDF00;
+	position: absolute;
+	z-index: 3;
+	margin-top: 60px;
+	line-height: 45px;
+	text-decoration: none;
+	letter-spacing: 0.1px;
+	display: block;
+	margin: auto;
+	padding: 3px;
+	transition: 0.4s;
+}
+
+.button:hover {
+	color: #2a0134;
+	background: white;
+	transition: 0.4s;	Transition in
